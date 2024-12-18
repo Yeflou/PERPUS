@@ -1,5 +1,5 @@
 class Petugas:
-    def _init_(self, nama, id_petugas):
+    def __init__(self, nama, id_petugas):
         self.nama = nama
         self.id_petugas = id_petugas
 

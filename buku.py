@@ -18,5 +18,3 @@ class Buku:
             print(f"Buku '{self.judul}' berhasil dikembalikan.")
         else:
             print(f"Buku '{self.judul}' sudah tersedia.")
-            
-print("Ayangnya Avi cuma Flora")

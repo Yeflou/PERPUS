@@ -1,5 +1,5 @@
 class Peminjaman:
-    def _init_(self, anggota, buku):
+    def __init__(self, anggota, buku):
         self.anggota = anggota
         self.buku = buku
         self.status = "dipinjam"

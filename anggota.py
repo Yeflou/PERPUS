@@ -1,5 +1,5 @@
 class Anggota:
-    def _init_(self, nama, id_anggota):
+    def __init__(self, nama, id_anggota):
         self.nama = nama
         self.id_anggota = id_anggota
         self.riwayat_peminjaman = []
