@@ -1,5 +1,5 @@
 class Buku:
-    def _init_(self, judul, penulis, ISBN, status="tersedia"):
+    def __init__(self, judul, penulis, ISBN, status="tersedia"):
         self.judul = judul
         self.penulis = penulis
         self.ISBN = ISBN
@@ -18,3 +18,5 @@ class Buku:
             print(f"Buku '{self.judul}' berhasil dikembalikan.")
         else:
             print(f"Buku '{self.judul}' sudah tersedia.")
+            
+print("Ayangnya Avi cuma Flora")
